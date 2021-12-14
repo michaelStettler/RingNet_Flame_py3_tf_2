@@ -1,5 +1,5 @@
 """
-Author: Soubhik Sanyal
+Author: Michael Stettler
 Copyright (c) 2019, Soubhik Sanyal
 All rights reserved.
 
@@ -50,8 +50,13 @@ from tqdm import tqdm
 from util import renderer as vis_util
 from util import image as img_util
 from util.project_on_mesh import compute_texture_map
-from config_AffectNet import get_config
 from run_RingNet import RingNet_inference
+
+"""
+Edit here to run different set of images
+"""
+# from config_AffectNet import get_config
+from config_AffectNet_im0 import get_config
 
 tf.compat.v1.disable_eager_execution()
 
