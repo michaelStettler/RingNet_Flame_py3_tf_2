@@ -171,6 +171,9 @@ def main(config, template_mesh):
 
 
 if __name__ == '__main__':
+    """
+    run example: python -m demo --img_path ./input_images/000001.jpg --out_folder ./RingNet_output
+    """
     config = get_config()
     template_mesh = Mesh(filename='./flame_model/FLAME_sample.ply')
     renderer = vis_util.SMPLRenderer(faces=template_mesh.f)
