@@ -26,7 +26,7 @@ from absl import flags
 
 PRETRAINED_MODEL = './model/ring_6_68641'
 
-flags.DEFINE_string('AffectNet_path', '/app/AffectNet/AffectNet/', 'Path to AffectNet dataset')
+flags.DEFINE_string('AffectNet_path', '/media/michael/Data/Dataset/AffectNet/', 'Path to AffectNet dataset')
 flags.DEFINE_string('csv_file', 'validation_happy0.csv', 'CSV file to load')
 flags.DEFINE_string('img_path', './input_images/000001.jpg', 'Image to run')
 flags.DEFINE_string('out_folder', './RingNet_output',

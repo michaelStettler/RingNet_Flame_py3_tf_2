@@ -56,7 +56,7 @@ from run_RingNet import RingNet_inference
 Edit here to run different set of images
 """
 # from config_AffectNet import get_config
-from config_AffectNet_im0 import get_config
+from config_AffectNet_happy0 import get_config
 
 tf.compat.v1.disable_eager_execution()
 
@@ -145,6 +145,8 @@ def main(config, template_mesh):
 if __name__ == '__main__':
     """
     run example: python -m run_on_AffectNet
+    
+    Note: change the config name at the beginning of the script to run different set of images
     """
     config = get_config()
     template_mesh = Mesh(filename='./flame_model/FLAME_sample.ply')
@@ -157,3 +159,7 @@ if __name__ == '__main__':
         os.mkdir(config.out_folder + '/images')
 
     main(config, template_mesh)
+    print()
+    print("---------------------------------")
+    print("----------    DONE    -----------")
+    print("---------------------------------")

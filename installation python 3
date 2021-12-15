@@ -1,0 +1,17 @@
+// install opendr in python 3
+sudo apt-get update
+sudo apt install libosmesa6-dev
+sudo apt-get install build-essential
+sudo apt-get install libgl1-mesa-dev
+sudo apt-get install libglu1-mesa-dev
+sudo apt-get install freeglut3-dev
+pip install opendr
+
+// for affectnet Tiff images
+pip install imagecodecs
+
+// for psbody
+download and unzip the mesh package to a new folder (https://github.com/MPI-IS/mesh)
+
+sudo apt-get install libboost-dev
+BOOST_INCLUDE_DIRS=/path/to/boost/include make all
