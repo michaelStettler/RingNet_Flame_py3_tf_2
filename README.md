@@ -6,5 +6,5 @@ I added a small file to install "opendr" librairy in python3, for the rest, plea
 
 
 ## Example
-![Alt text](img/RingNet_on_AffectNet_examples.pdf "Fig1")
+![Figure 1](/img/RingNet_on_AffectNet_examples.pdf)
 Fig1. RingNet output on some example image taken from AffectNet database
